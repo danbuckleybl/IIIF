@@ -1,0 +1,97 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://danbuckleybl.github.io/IIIF/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "A manuscript",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is the description",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "This is the attribution",
+  "viewingHint" : "paged",
+  "sequences" : [ {
+    "@id" : "http://6f266aec-6090-4044-b9a5-34ae685a2c30",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b9a58523-11c3-485f-a877-046601efa8f5",
+      "@type" : "sc:Canvas",
+      "label" : "Inside Front Cover",
+      "height" : 6236,
+      "width" : 4627,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a1d4aa94-9735-45b8-b939-663cc54e6279",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000002/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000002",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6236,
+          "width" : 4627
+        },
+        "on" : "http://b9a58523-11c3-485f-a877-046601efa8f5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5c3f0631-6e2d-4513-a83b-a14b98b7a0f2",
+      "@type" : "sc:Canvas",
+      "label" : "Front Cover",
+      "height" : 6308,
+      "width" : 4659,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d88d0771-921e-409c-8dfa-28745a6f2aae",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100056906691.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6308,
+          "width" : 4659
+        },
+        "on" : "http://5c3f0631-6e2d-4513-a83b-a14b98b7a0f2"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://b9a58523-11c3-485f-a877-046601efa8f5" ]
+  } ]
+}
