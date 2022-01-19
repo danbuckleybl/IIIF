@@ -93,5 +93,10 @@
     "@type" : "sc:Range",
     "label" : "Introduction",
     "canvases" : [ "http://b9a58523-11c3-485f-a877-046601efa8f5" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro2",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://5c3f0631-6e2d-4513-a83b-a14b98b7a0f2" ]
   } ]
 }
