@@ -96,7 +96,7 @@
   }, {
     "@id" : "http://example.org/iiif/book1/range/intro2",
     "@type" : "sc:Range",
-    "label" : "Introduction",
+    "label" : "Introduction2",
     "canvases" : [ "http://5c3f0631-6e2d-4513-a83b-a14b98b7a0f2" ]
   } ]
 }
