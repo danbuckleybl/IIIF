@@ -3,6 +3,11 @@
   "@id" : "https://danbuckleybl.github.io/IIIF/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "A manuscript",
+  "service": {
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://dev.gdmrdigital.com/search-api/1245635613/97972693/e4257d36b23d2dda4766bcf3dd5e2c13/search",
+    "@context": "http://iiif.io/api/search/0/context.json"
+},
   "metadata" : [ ],
   "description" : [ {
     "@value" : "This is the description",
