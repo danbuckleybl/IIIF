@@ -42,19 +42,20 @@
               "qualities" : [ "gray", "color", "bitonal" ],
               "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
             } ]
-         "otherContent": [
-    {
-        "@id": "https://danbuckleybl.github.io/IIIF/annotations/ec64253d3e18e3aa8f605757bf25a4e2.json",
-        "@type": "sc:AnnotationList",
-        "label": "My fantastic annotations"
-    }
-]
+			
           },
           "height" : 6236,
           "width" : 4627
         },
         "on" : "http://b9a58523-11c3-485f-a877-046601efa8f5"
       } ],
+	  "otherContent": [
+    {
+        "@id": "https://danbuckleybl.github.io/IIIF/annotations/ec64253d3e18e3aa8f605757bf25a4e2.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
       "related" : ""
     }, {
       "@id" : "http://5c3f0631-6e2d-4513-a83b-a14b98b7a0f2",
