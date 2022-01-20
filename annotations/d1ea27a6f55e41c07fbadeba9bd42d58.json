@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Test annotation 2",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Test annotation 2</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/97972693",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-01-20T09:28:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1642670895203",
+    "dcterms:modified" : "2022-01-20T09:28:15",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://danbuckleybl.github.io/IIIF/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1678,1540,1585,1681"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1909.94236,1786.58548c146.3427,-141.18756 352.78278,-246.32516 560.22326,-246.19955v0v0c207.44049,0.12561 388.15595,98.48014 560.22326,246.19955c172.06732,147.71941 238.9477,372.81527 232.05207,594.37829c-6.89563,221.56301 -87.56727,439.59318 -232.05207,594.37829c-144.48481,154.78511 -352.78278,246.32516 -560.22326,246.19955c-207.44049,-0.12561 -414.02348,-91.91689 -560.22326,-246.19955c-146.19978,-154.28266 -232.01635,-371.0567 -232.05207,-594.37829c-0.03573,-223.32159 85.70938,-453.19072 232.05207,-594.37829z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_e6fe99dc-74b8-4f93-bb43-b008b788e171\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://5c3f0631-6e2d-4513-a83b-a14b98b7a0f2"
+    } ]
+  } ],
+  "@id" : "https://danbuckleybl.github.io/IIIF/annotations/d1ea27a6f55e41c07fbadeba9bd42d58.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
