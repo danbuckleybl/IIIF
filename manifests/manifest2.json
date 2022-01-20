@@ -42,6 +42,13 @@
               "qualities" : [ "gray", "color", "bitonal" ],
               "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
             } ]
+         "otherContent": [
+    {
+        "@id": "https://danbuckleybl.github.io/IIIF/annotations/ec64253d3e18e3aa8f605757bf25a4e2.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+]
           },
           "height" : 6236,
           "width" : 4627
